@@ -1,0 +1,29 @@
+.main {
+ 
+    
+}
+.pic {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+}
+.h1{
+    top: 55px;
+    left: 88px;
+    position: absolute;
+    color: darkorange;
+}
+
+@media screen and (max-width: 767px) {
+    .pic {
+      background-size: contain;
+      background-position: top;
+      
+    }
+  }
+
+
